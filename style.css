@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-image: url("full-bloom.png");
+    background-image: url("images/full-bloom.png");
     
 }
 
@@ -9,16 +9,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.container {
+.wrapperNav {
     width: 960px;
-    margin: 20px auto;
-    background: #ffffff;
+    margin: 0px auto;
 }
 
+.container {
+    width: 960px;
+    margin: 20px auto 0px auto;
+    background: #ffffff;
+
+}
+.navbar {
+    padding-bottom: 0px;
+}
 .navbar-brand {
     background: #4aaaa5;
     padding: 15px;
+    margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.navbar-toggler {
+    float: right;
 }
 
 h5 {
@@ -31,7 +45,14 @@ h5 {
 }
 
 .portfolio-image{
-    padding: 10px;
+    padding: 10px 0px;
+    width: auto;
+    height: 200px;
 }
 
+footer {
+    background: #666666;
+    color: #ffffff;
+    font-size: .5em;
+}
 
