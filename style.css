@@ -6,7 +6,7 @@ body {
     line-height: 1.75em;  
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
@@ -36,20 +36,37 @@ h5 {
 }
 
 .aboutMe-image {
-    padding-right: 10px;
+    padding-right: 1em;
     width: 15em;
     float: left;
 }
 
-.portfolio-image{
-    padding: 1em 0;
-    width: 100%;
-
+.portfolioImgWrapper {
+    position: relative;
 }
+
+h6 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: .5em;
+    position: absolute;
+    bottom: 1.5em;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+}
+
+.portfolio-image {
+    width: 100%;
+    margin: 1em 0;
+}
+
 
 footer {
     background: #666666;
     color: #ffffff;
-    font-size: .5em;
+    font-size: .75em;
 }
 
