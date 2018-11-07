@@ -11,8 +11,16 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
+.bg-light {
+    background: #ffffff!important;
+}
+
 .navMid {
     padding: 0;
+}
+
+.navLeft, .navMid, .navRight {
+    border-bottom: 2px solid #cccccc;
 }
 
 .navbar-brand {
@@ -21,6 +29,19 @@ h1, h2, h3, h4, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+.nav-item {
+    border-left: 1px solid #cccccc;
+    padding: 0;
+}
+
+.nav-item:first-child {
+    border-left: 0 none;
+  }
+
+.container-fluid {
+    margin-bottom: 20%;
+   }
 
 .contentTop {
     margin-top: 2em;
@@ -33,6 +54,8 @@ h1, h2, h3, h4, h5 {
 
 h5 {
     color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 1em;
 }
 
 .aboutMe-image {
@@ -63,10 +86,13 @@ h6 {
     margin: 1em 0;
 }
 
-
 footer {
     background: #666666;
     color: #ffffff;
     font-size: .75em;
+    border-top: 5px solid #4aaaa5;
+    
 }
+
+
 
